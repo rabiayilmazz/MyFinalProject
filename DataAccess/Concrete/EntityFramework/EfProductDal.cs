@@ -7,14 +7,15 @@ using System.Text;
 
 namespace DataAccess.Concrete.EntityFramework
 {
+    // NuGet
     class EfProductDal : IProductDal
     {
-        public void Add(Product entitiy)
+        public void Add(Product entity)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(Product entitiy)
+        public void Delete(Product entity)
         {
             throw new NotImplementedException();
         }
@@ -29,7 +30,7 @@ namespace DataAccess.Concrete.EntityFramework
             throw new NotImplementedException();
         }
 
-        public void Update(Product entitiy)
+        public void Update(Product entity)
         {
             throw new NotImplementedException();
         }
